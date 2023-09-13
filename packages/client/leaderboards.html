@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Leaderboards</title>
+    </head>
+    <body>
+        
+        <div id="game-container">
+            <div id="border">
+                <div id="leaderboards">
+                    <input
+                        title="Enter a search term..."
+                        id="leaderboards-search-input"
+                        class="stroke"
+                        type="text"
+                        maxlength="32"
+                        autocomplete="off"
+                        data-lpignore="true"
+                        placeholder="Enter a term to search...">
+                    </input>
+
+                <ul id="leaderboards-search"></ul>
+                <ul id="leaderboards-results"></ul>
+            </div>
+        </div>
+    </div>
+
+        <!-- Include Vite.js development server script -->
+        <script type="module" src="./src/main.ts"></script>
+    </body>
+</html>
